@@ -14,11 +14,11 @@ dotenv.config();
 
 /* data base */
 const db=new pg.Client({
-    user:"postgres",
-    host: "localhost",
-    database: "world",
+    user:process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_NAME,
     password:process.env.DB_PASSWORD,
-    port: 5432,
+    port: process.env.DB_PORT,
 });
 
 db.connect();
