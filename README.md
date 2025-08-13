@@ -3,6 +3,8 @@
 An engaging and interactive quiz web app to test your knowledge of world capitals!  
 Built using **Node.js**, **Express**, **PostgreSQL**, and **EJS** templating.
 
+> 🏋️‍♂️ This project was built for **Back-End development training**.
+
 ---
 
 ## 🧰 Technologies Used
